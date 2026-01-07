@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Peternakan Burung Puyuh Profesional</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <h1>Peternakan Burung Puyuh Terpadu</h1>
+    <p>Solusi Agribisnis Puyuh Modern, Berkelanjutan & Berstandar Global</p>
+  </div>
+</header>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="container nav-flex">
+
+    <!-- LOGO -->
+    <div class="logo">
+      <img src="src/assets/puyuh.png" alt="Logo Peternakan Puyuh">
+    </div>
+
+    <!-- TOGGLE -->
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <!-- NAV MENU -->
+    <ul id="navMenu" class="nav-menu">
+      <li><a href="#home" onclick="toggleMenu()">Beranda</a></li>
+      <li><a href="#about" onclick="toggleMenu()">Profil</a></li>
+      <li><a href="#services" onclick="toggleMenu()">Produk & Layanan</a></li>
+      <li><a href="#features" onclick="toggleMenu()">Keunggulan</a></li>
+      <li><a href="#contact" onclick="toggleMenu()">Kontak</a></li>
+    </ul>
+
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <h2>Peternakan Burung Puyuh Modern & Terstandar</h2>
+      <p>
+        Kami mengembangkan sistem peternakan burung puyuh berbasis manajemen modern,
+        biosekuriti, dan efisiensi produksi untuk memenuhi kebutuhan pangan nasional
+        maupun pasar global.
+      </p>
+      <a href="#contact" class="btn">Kerja Sama & Kemitraan</a>
+    </div>
+<div class="hero-box">
+  <video
+    autoplay
+    muted
+    loop
+    playsinline
+    preload="auto"
+    tabindex="-1"
+    aria-hidden="true">
+    <source src="src/assets/puyuh.mp4" type="video/mp4">
+  </video>
+</div>
+
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="about">
+  <div class="container">
+    <h2 class="title">Profil Perusahaan</h2>
+    <p class="center">
+      Kami adalah perusahaan peternakan burung puyuh yang berfokus pada produksi telur,
+      bibit unggul, dan pengembangan sistem peternakan berkelanjutan.  
+      Mengadopsi praktik terbaik industri agribisnis global dalam pengelolaan ternak,
+      pakan, dan distribusi.
+    </p>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="section gray" id="services">
+  <div class="container grid">
+    <div class="card">
+      <h3>Produksi Telur Puyuh</h3>
+      <p>
+        Telur puyuh berkualitas tinggi dengan standar kebersihan dan keamanan pangan
+        yang terkontrol.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Bibit & Indukan Unggul</h3>
+      <p>
+        Penyediaan bibit dan indukan puyuh sehat dengan performa produksi optimal.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Kemitraan Peternak</h3>
+      <p>
+        Program kemitraan berbasis pendampingan teknis, manajemen pakan,
+        dan jaminan pemasaran.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="section" id="features">
+  <div class="container grid">
+    <div class="feature">🌱 Berkelanjutan</div>
+    <div class="feature">📊 Manajemen Modern</div>
+    <div class="feature">🧬 Bibit Berkualitas</div>
+    <div class="feature">🛡️ Biosekuriti</div>
+    <div class="feature">🚚 Distribusi Terjamin</div>
+    <div class="feature">🌍 Siap Pasar Global</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section gray" id="contact">
+  <div class="container contact">
+    <h2>Hubungi Kami</h2>
+    <p>📧 Email: info@peternakanpuyuh.com</p>
+    <p>📞 WhatsApp: 08xxxxxxxxxx</p>
+    <p>📍 Indonesia</p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Peternakan Burung Puyuh Terpadu | All Rights Reserved</p>
+</footer>
+
+<!-- SCRIPT -->
+<script>
+function toggleMenu() {
+  document.getElementById("navMenu").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
