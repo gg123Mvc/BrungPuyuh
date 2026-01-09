@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="1532x1532" href="src/assets/puyuh.png">
+  <title>Profil Perusahaan | Peternakan Burung Puyuh</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/index.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="container">
+    <h1>Profil Perusahaan</h1>
+    <p>Peternakan Burung Puyuh Terpadu & Berkelanjutan</p>
+  </div>
+</header>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="container nav-flex">
+    <div class="logo">
+      <img src="src/assets/puyuh.png" alt="Logo">
+    </div>
+
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+
+    <ul id="navMenu" class="nav-menu">
+      <li><a href="index.html" onclick="toggleMenu()">Beranda</a></li>
+      <li><a href="services.html" onclick="toggleMenu()">Produk & Layanan</a></li>
+      <li><a href="index.html#contact" onclick="toggleMenu()">Kontak</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- PROFIL PERUSAHAAN -->
+<section class="section">
+  <div class="container">
+    <h2 class="title">Tentang Kami</h2>
+    <p class="center">
+      Peternakan Burung Puyuh Terpadu adalah perusahaan agribisnis yang bergerak
+      di bidang produksi telur puyuh, bibit unggul, serta pengembangan sistem
+      peternakan modern dan berkelanjutan.
+    </p>
+  </div>
+</section>
+<div class="grid team-grid">
+  <div class="team-card">
+    <img src="src/assets/team/ceo.jpeg" alt="CEO">
+    <h3>Ahmad Pratama</h3>
+    <p class="position">Founder & Chief Executive Officer</p>
+  </div>
+
+  <div class="team-card">
+    <img src="src/assets/team/coo.jpg" alt="COO">
+    <h3>Siti Nurhaliza</h3>
+    <p class="position">Co-Founder & Chief Operating Officer</p>
+  </div>
+
+  <div class="team-card">
+    <img src="src/assets/team/director.jpg" alt="Director">
+    <h3>Budi Santoso</h3>
+    <p class="position">Director of Production</p>
+  </div>
+
+  <div class="team-card">
+    <img src="src/assets/team/qa.jpg" alt="QA">
+    <h3>Dewi Lestari</h3>
+    <p class="position">Quality Assurance Manager</p>
+  </div>
+
+  <div class="team-card">
+    <img src="src/assets/team/bd.jpg" alt="BD">
+    <h3>Rizky Maulana</h3>
+    <p class="position">Partnership & Business Development</p>
+  </div>
+</div>
+
+
+<!-- VISI MISI -->
+<section class="section gray">
+  <div class="container grid">
+    <div class="card">
+      <h3>Visi</h3>
+      <p>
+        Menjadi perusahaan peternakan burung puyuh yang unggul, modern,
+        dan berdaya saing nasional serta global.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Misi</h3>
+      <ul>
+        <li>Menghasilkan produk puyuh berkualitas dan aman konsumsi</li>
+        <li>Menerapkan sistem peternakan berbasis teknologi</li>
+        <li>Mendukung kemitraan peternak secara berkelanjutan</li>
+        <li>Menjaga kesejahteraan ternak dan lingkungan</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- NILAI PERUSAHAAN -->
+<section class="section">
+  <div class="container">
+    <h2 class="title">Nilai Perusahaan</h2>
+    <div class="grid">
+      <div class="feature">Integritas</div>
+      <div class="feature">Kualitas</div>
+      <div class="feature">Keberlanjutan</div>
+      <div class="feature">Inovasi</div>
+    </div>
+  </div>
+</section>
+
+<!-- LEGALITAS -->
+<section class="section gray">
+  <div class="container">
+    <h2 class="title">Legalitas Usaha</h2>
+    <p class="center">
+      Perusahaan kami beroperasi sesuai dengan peraturan perundang-undangan
+      yang berlaku di Indonesia dan berkomitmen terhadap standar keamanan pangan.
+    </p>
+    <ul class="center">
+      <li>✔️ Nomor Induk Berusaha (NIB)</li>
+      <li>✔️ Sertifikat Usaha Peternakan</li>
+      <li>✔️ Standar Kebersihan & Biosekuriti</li>
+    </ul>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Peternakan Burung Puyuh Terpadu | All Rights Reserved</p>
+</footer>
+
+<!-- SCRIPT -->
+<script>
+function toggleMenu() {
+  document.getElementById("navMenu").classList.toggle("show");
+}
+</script>
+
+</body>
+</html>
